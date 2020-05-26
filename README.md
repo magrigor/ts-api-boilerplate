@@ -27,3 +27,5 @@ npm run dist
 ```
 npm run lint
 ```
+
+P.S Not supporting debugging :(

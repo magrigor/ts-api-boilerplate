@@ -1,13 +1,13 @@
 {
-  "name": "feedback_internship_api",
+  "name": "ts-api-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "npm run start:dev",
-    "start:prod": "npm run dist && node dist/index.js",
+    "start:prod": "npm run build && node dist/index.js",
     "start:dev": "nodemon",
-    "dist": "rimraf .dist/ && tsc",
+    "build": "rimraf .dist/ && tsc",
     "lint": "eslint . --ext .ts",
     "lint-and-fix": "eslint . --ext .ts --fix"
   },
